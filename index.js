@@ -188,9 +188,7 @@ const arr2=['4','34','22','44'];
 const finalArray=arr1.concat(arr2);
 //spread operator
 const finalArray1=[...arr1,...arr2];
-const sortFinalArray=finalArray.sort((a,b)=>{
-    a-b;
-})
+const sortFinalArray=finalArray.sort((a,b)=>{a-b})
 console.log(sortFinalArray);
  
 
